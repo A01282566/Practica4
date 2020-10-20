@@ -62,6 +62,7 @@ En el repositorio de la práctica de github se adjuntará el código fuente (arc
 ### Demonstration
 Se realizará un screenshoot de cada una de la resolución de cada uno de los problemas, además se grabará un video
 explicando la solución y ejecutandola para validar su comprobación.
+Video: https://www.youtube.com/watch?v=bERhFKiJMc0
 
 ## Conclusion
 En esta sección, deberás añadir las conclusiones, sugerencias y/o problemas de las actividades de laboratorio. 
