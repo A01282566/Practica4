@@ -55,6 +55,29 @@ El siguiente es para una secuencia de 2-bit (n = 2)
 Para esta práctica, reporta un screeshot de la demostración de cada uno de los problemas, así como adjuntando el código
 del problema principal, además de explicar la solución.
 
+Problema #1
+
+Para encontrar el único elemento en un arreglo donde sí se repiten 3 números, primero se creó una función llamada “obtenerUnico” y se inicializaron las variables: primbits, otrosbits,elemento_unico, i y tamaño en cero.
+Luego en un for, se estableció una condición que indica que mientras que la i sea menor que el tamaño del arreglo, primero se deben obtener los bits que hay al inicio y los que tiene el elemento que se genera con ese mismo arreglo. Luego, se le agregan esos bits a los otros mediante un XOR.
+Posteriormente, se le aplica también un XOR a los nuevos bits con “primbits” para saber el número de veces que aparece un número impar dentro del arreglo.
+Después, se eliminan los bits comunes y los que aparecen en otrosbits y primbits.
+Finalmente, en el main se pone el arreglo, se obtiene el tamaño de este y se imprime el resultado,
+
+Problema #2
+Para realizar un programa donde se reciban dos números enteros sin signo y se puedan dividir y multiplicar, se usó solamente operadores binarios. Como éstos indican el desplazamiento de los lugares, si se multiplica o divide por uno, significa realmente hacer estas operaciones pero con el número 2.
+Siguiendo esta lógica, únicamente se declararon las variables y se utilizó “<<“ para multiplicar y “>>” para dividir.
+Con un printf, se logró mostrar el resultado en la pantalla.
+
+Problema #3
+
+Para elevar al cuadrado un número entero sin usar librerías de potencias, se hizo un while para que mientras una variable i es mayor que cero, se haga un and con el número 1 y compare si es igual a este, si no, se hace un postincremento al número y un postdecremento al contador.
+Si i es divido entre 1, a contar se le hace otro postincremento. Estas operaciones darán como resultado el número al cuadrado.
+
+Problema #4
+
+Aquí se usaron varias librerías como malloc, string y stdlib. Primero se creó una función sin retorno. Y en ésta se reservaron espacios extras y se le añade texto usando la cadena inicial. Luego se hacen operaciones para devolver la resultante. Después, se le hacen postincrementos al arreglo y se le asignan números específicos de bytes.
+Finalmente, se imprimen los resultados en código grey, pero para esto primero se establece un for que vaya comparando la variable “i” con “contador”.
+
 ### File uploads
 En el repositorio de la práctica de github se adjuntará el código fuente (archivos .c) de cada uno de los problemas.
 
