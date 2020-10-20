@@ -64,6 +64,7 @@ Después, se eliminan los bits comunes y los que aparecen en otrosbits y primbit
 Finalmente, en el main se pone el arreglo, se obtiene el tamaño de este y se imprime el resultado,
 
 Problema #2
+
 Para realizar un programa donde se reciban dos números enteros sin signo y se puedan dividir y multiplicar, se usó solamente operadores binarios. Como éstos indican el desplazamiento de los lugares, si se multiplica o divide por uno, significa realmente hacer estas operaciones pero con el número 2.
 Siguiendo esta lógica, únicamente se declararon las variables y se utilizó “<<“ para multiplicar y “>>” para dividir.
 Con un printf, se logró mostrar el resultado en la pantalla.
