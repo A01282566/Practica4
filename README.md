@@ -65,4 +65,5 @@ explicando la solución y ejecutandola para validar su comprobación.
 Video: https://www.youtube.com/watch?v=bERhFKiJMc0
 
 ## Conclusion
-En esta sección, deberás añadir las conclusiones, sugerencias y/o problemas de las actividades de laboratorio. 
+
+A través de la implementación de ésta práctica pude desarrollar e ir mejorando en cada ejercicio, mi comprensión sobre el uso y manejo de operadores binarios combinados con el lenguaje de programación C. Cabe mencionar que, aunque los planteamientos de los problemas no suenan comlpejos, en realidad sí lo son, ya que éstos operadores son diferentes a los conocidos tradicionalmente y, además, tienen ciertas diferencias significativas, sobre todo cuando se necesita tomar en cuenta los bits, strings o espacios.
